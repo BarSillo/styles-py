@@ -1,19 +1,21 @@
 # college_paper.mplstyle
 
-# Background color (yellowish)
-figure.facecolor: #FFFFE0
-axes.facecolor: #FFFFE0
+# Background color (more yellowish)
+figure.facecolor: #FFF8DC
+axes.facecolor: #FFF8DC
 
-# Grid lines (college-lined paper style)
+# Grid lines (only horizontal lines, thicker and translucent blue)
 axes.grid: True
-grid.color: #CCCCCC
-grid.linestyle: --
-grid.linewidth: 0.5
+grid.color: "#add8e6"   # light blue
+grid.linestyle: -
+grid.linewidth: 1.5
+grid.axis: y
+grid.alpha: 0.4
 
-# Red margin line
+# Y-axis spine (thicker but more transparent)
 axes.spines.left: True
-axes.spines.left.color: red
-axes.spines.left.linewidth: 2
+axes.spines.left.color: #FF000080
+axes.spines.left.linewidth: 4
 
 # Hide other spines (top, right, bottom)
 axes.spines.top: False
